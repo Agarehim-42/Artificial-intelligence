@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+body {
+    background-color: #020A18;
+}
+
+/* Header Start */
+.header {
+    background-color: #020A18 !important;
+}
+
+.header img {
+    width: 224px;
+}
+
+
+.header .btn {
+    background-color: #3A68B8;
+    color: #FFFFFF;
+    padding-top: 10px;
+    width: 112px;
+    height: 52px;
+    border-radius: 5px;
+    gap: 10px;
+    
+}
+
+/* Header end */
+
+
+/* Introduction Section Start */
+.intro-left-side h5 {
+    padding-top: 60px;
+    color: #3A68B8;
+}
+
+.intro-left-side h1 {
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+.intro-left-side p {
+    padding-top: 10px;
+    color: #b4b7bb;
+}
+
+.intro-left-side .first-tablo {
+    background-color: #3A68B8;
+    color: #FFFFFF;
+    display: inline-flex;
+    width: 120px;
+    /* gap: 10px; */
+    height: 57px;
+    border-radius: 4px;
+    /* margin-right: 20px; */
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+
+.intro-left-side .second-tablo {
+    background-color: #3A68B8;
+    color: #FFFFFF;
+    width: 170px  ;
+    height: 57px !important;
+    border-radius: 4px;
+    /* padding-top: 10px; */
+    text-decoration: none;
+    /* margin-right: px; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.computer {
+    width: 320px;
+    padding-left: 70px;
+
+}
+
+.introduction {
+    padding-top: 25px;
+}
+
+
+.introduction p {
+    font-size: 16px;
+}
+
+/* Section Information Start */
+
+.infor-left-side {
+    padding-left: 26px;
+}
+
+.infor-right-side p {
+    color: #b4b7bb;
+}
+
+.infor-right-side {
+    padding-top: 39px;
+    /* display: inline-block; */
+}
+
+/* .sponsorAll {
+    justify-content: center;
+    align-items: center;
+    margin-left: 27px;
+    weight: 185px;
+} */
+
+
+
+
+
+.krakadil img {
+    width: 185px;
+
+    margin-left: 46px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 80px; */
+    /* flex-basis: 50%; */
+}
+
+
+
+
+
+
+.Learn-mr {
+    background-color: #3A68B8 ;
+    color: #FFFFFF ;
+    width: 150px ;
+    height: 52px;
+    display: inline-flex ;
+    justify-content: center ;
+    align-items: center ;
+    text-decoration: none ;
+    border-radius: 5px;
+}
+
+
+.card  {
+    background-color: #020A18;
+    color: #0d1522;
+    width: 160px;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border-color: #0d1522;
+}
+
+
+
+.card p  {
+    color: #b4b7bb;
+}
+
+.point {
+    width: 1400px ;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 .mr {
+    font-size: 1px;
+}
+
+.mail {
+
+}
+
+
+
+
+.informations h6 {
+    /* font-size: 11px; */
+    /* width: 50px; */
+    color: #b4b7bb;
+}
+
+.menus h6 {
+    /* font-size: 11px; */
+    /* width: 50px; */
+    color: #b4b7bb;
+}
+
+.useful-links h6 {
+    /* font-size: 11px; */
+    /* width: 50px; */
+    color: #b4b7bb;
+}
+
+.about-stores h6 {
+    color: #b4b7bb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) {
+    .header ul li {
+        /* color: #fff; */
+        padding-left: 59px;
+
+    }
+
+    .header .btn {
+        margin-left: 30px;
+    }
+
+    .header a img {
+        padding-right: 40px;
+        width: 330px;
+    }
+
+
+    .computer {
+        padding-top: 92px;
+        width: 320px;
+        /* padding-inline-start: 15px; */
+
+    }
+
+    .second-tablo {}
+
+    .introduction p {
+        font-size: 21px;
+    }
+
+    .information {
+        display: flex;
+    }
+
+    .intro-left-side .second-tablo {
+        width: 170px;
+    }
+
+    .picture {
+        width: 320px;
+    }
+    
+    .infor-right-side {
+        margin-left: 30px;
+    }  
+
+    .clients-right-side {
+        width: 356px !important;
+        padding-top: 45px !important;
+    } 
+
+    
+
+    .menu {
+        /* margin-top: 100px; */
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media(min-width:992px) {
+    .header ul li {
+        /* color: #fff; */
+        padding-left: 59px;
+
+    }
+
+    .header img {
+        width: 300px;
+    }
+
+    .header a img {
+        padding-right: 40px;
+    }
+
+    .header .btn {
+        margin-top: 8px;
+    }
+
+
+    .intro-left-side .second-tablo {
+        background-color: #3A68B8;
+        color: #FFFFFF;
+        width: 156px;
+        height: 57px;
+        border-radius: 4px;
+        margin-left: 9px;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+    .computer {
+        padding-top: 30px;
+        width: 500px;
+    }
+
+
+    .intro-right-side img {
+        width: 600px !important;
+
+    }
+
+    .information {
+        display: flex;
+    }
+    
+
+    .infor-left-side img {
+        margin-bottom: 100px;
+        width: 650px;
+    }
+    
+    .infor-right-side {
+        margin-top: 100px;
+        margin-left: 70px !important;
+    }
+
+
+
+    .card  {
+        background-color: #020A18;
+        color: #b4b7bb;
+        width: 235px;
+        display: flex;
+        margin-left: 20px;
+        justify-content: center;
+        align-items: center; 
+        /* border-color: #0F1623; */
+    }
+
+
+    .infor-right-side {
+        margin-left: 68px !important;
+    }
+
+    .picture {
+        width: 600px !important;
+    }
+
+    .clients-left-side { 
+        padding-top: 60px;
+    }
+
+    .clients-right-side {
+        width: 600px !important;
+        
+        /* padding-bottom: 45px !important; */
+    }
+
+
+    .about-stores {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+
+
+
+}
