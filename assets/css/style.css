@@ -103,18 +103,30 @@ body {
     color: #b4b7bb;
 }
 
+.triangle {
+    margin-right: 15px;
+}
+
 .intro-left-side .first-tablo {
     background-color: #3A68B8;
     color: #FFFFFF;
     display: inline-flex;
     width: 120px;
-    /* gap: 10px; */
     height: 57px;
     border-radius: 4px;
-    /* margin-right: 20px; */
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    /* text-decoration: none;
+    color: #fff;
+    background-color:#3a68b8;
+    display:flex;
+    width: 90px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 20px; */
 }
 
 
@@ -125,13 +137,20 @@ body {
     width: 170px  ;
     height: 57px !important;
     border-radius: 4px;
-    /* padding-top: 10px; */
     text-decoration: none;
-    /* margin-right: px; */
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    /* gap: 10px; */
+    margin-left: 10px;
+    /* text-decoration: none;
+    color: #fff;
+    background-color:#3a68b8;
+    display:flex;
+    width: 120px !important;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; */
 }
 
 .computer {
@@ -283,7 +302,7 @@ h5 .mr {
         
     }
     .main {
-        margin-left: 40px;
+        /* margin-left: 40px; */
     }
 }
 
@@ -386,9 +405,7 @@ h5 .mr {
 
     
 
-    .menu {
-        /* margin-top: 100px; */
-    }
+    
 
     .cards .card {
         /* width: 200px; */
@@ -517,18 +534,36 @@ h5 .mr {
 
 
     .about-stores {
-        margin-left: 30px;
-        margin-top: 30px;
+        /* margin-left: 30px; */
+        /* margin-bottom: 60px; */
     }
 
     .about-stores .img-global {
-        width: 25px;
+        width: 13px;
+        padding-top: 8px;
     }
 
 
 
     .about-stores .img-yes {
-        width: 25px;
+        width: 13px;
+        padding-top: 8px;
+    }
+
+    .informations {
+    margin-left: 30px; 
+    }
+
+    .menus {
+        margin-left: 15px;
+    }
+
+    .useful-links {
+        margin-left: 15px;
+    }
+
+    .about-stores {
+        margin-left: 10px;
     }
 
 
