@@ -38,6 +38,62 @@
     font-style: normal;
 }
 
+.mobile-menu {
+position:fixed;
+/* width: 100%; */
+width: 0;
+/* height: 100vh; */
+z-index: 99999;
+opacity: .9;
+overflow-x: hidden;
+background-color: #111;
+transition: 1.4s cubic-bezier(.67,.5,.9,.91);
+
+}
+
+.active {
+    width: 100%;
+}
+
+.mobile-menu .mobile-navbar a {
+    color: #FFFFFF !important;
+    text-decoration: none;
+    font-size: 33px;
+    
+}
+
+.mobile-navbar {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+    
+    
+}
+
+.mobile-menu .mobile-navbar a:hover {
+transform: translateX(20px);
+transition: 1.2s ease;
+}
+
+.fa-xmark {
+    color: #FFFFFF;
+    font-size: 33px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.fa-whatsapp {
+    color: #FFFFFF !important;
+    font-size: 33px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
 
 
 body {
@@ -199,9 +255,8 @@ body {
 
 
 
-.krakadil img {
-    width: 185px;
-
+.karusel img {
+    width: 149px ;
     margin-left: 46px;
     justify-content: center;
     align-items: center;
@@ -261,9 +316,7 @@ h5 .mr {
     font-size: 1px;
 }
 
-.mail {
 
-}
 
 
 
@@ -300,9 +353,6 @@ h5 .mr {
     .sponsorAll{
         margin-left: 40px;
         
-    }
-    .main {
-        /* margin-left: 40px; */
     }
 }
 
@@ -376,7 +426,7 @@ h5 .mr {
 
     }
 
-    .second-tablo {}
+    
 
     .introduction p {
         font-size: 21px;
@@ -533,10 +583,7 @@ h5 .mr {
     }
 
 
-    .about-stores {
-        /* margin-left: 30px; */
-        /* margin-bottom: 60px; */
-    }
+
 
     .about-stores .img-global {
         width: 13px;
@@ -564,6 +611,10 @@ h5 .mr {
 
     .about-stores {
         margin-left: 10px;
+    }
+
+    .karusel img {
+        width: 200px !important;
     }
 
 
