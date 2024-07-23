@@ -3,11 +3,11 @@ const closeBtn = document.querySelector(".fa-xmark")
 
 
 // Events Mouse hadiseleri  
-navbarBtn.addEventListener("click" , function() {
+navbarBtn.addEventListener("click", function () {
     document.querySelector(".mobile-menu").classList.add("active")
-} )
+})
 
-closeBtn.addEventListener("click" , function() {
+closeBtn.addEventListener("click", function () {
     document.querySelector(".mobile-menu").classList.remove("active")
 })
 
@@ -19,13 +19,32 @@ AOS.init();
 const swiper = new Swiper(".mySwiper", {
     slidesPerView: 2,
     spaceBetween: 30,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+
+    autoplay: {
+        delay: 1700,
+
+    }
+    ,
+    breakpoints: {
+        320: {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+        },
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+        },
     },
 
 
 
 
 
-    });
+
+
+});
+
